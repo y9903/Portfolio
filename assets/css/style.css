@@ -642,6 +642,7 @@ section .container {
 }
 
 .about .resume-item {
+  text-align: justify;
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid rgba(255, 255, 255, 0.2);
@@ -803,6 +804,7 @@ section .container {
 
 .portfolio .project-item h5 {
   font-size: 16px;
+  text-align: justify;
   background: rgba(255, 255, 255, 0.15);
   padding: 5px 15px;
   display: inline-block;
@@ -835,6 +837,7 @@ section .container {
 }
 
 .portfolio .embed-responsive{
+  width: 800px;
   position: relative;
   padding-bottom: 56.25%; 
   height: 0;
